@@ -4,16 +4,19 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 </head>
-<body>
-
-	<form id="frm1">
-		Nombre: <input type="text" name="name" id="name"><br>
-		Mail: <input type="text" name="email" id="email"><br>
-	</form>
-	<button onclick="myFunction()">Mostrar</button>
-	<p id="mostrarNombre"></p>
-	<p id="mostrarMail"></p>
-
+<body background="http://4.bp.blogspot.com/_3IvgrvSbUbU/TJa2ECMDVFI/AAAAAAAADj0/IUEyDW21kf8/s1600/Fondo-negro-floresplata.jpg">
+	<center>
+	<font color="white" face="verdana">
+		<form id="frm1" vertical="centre">
+			Nombre: <input type="text" name="name" id="name"><br>
+			<br>
+			Mail: <input type="text" name="email" id="email"><br>
+		</form>
+		<br>
+		<button onclick="myFunction()">Mostrar</button>
+		<p id="mostrarNombre"></p>
+		<p id="mostrarMail"></p>
+	</center>
 	<script>
 		function myFunction() {
       var nombre = document.getElementById("name").value;
@@ -24,5 +27,6 @@
       mostrarMail.innerHTML = "El correo ingresado es: " + mail;
 		}
 	</script>
+	</font>
 </body>
 </html>
